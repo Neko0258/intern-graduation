@@ -1,0 +1,71 @@
+<mxfile host="app.diagrams.net" modified="2023-09-23T15:30:51.935Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="BullUtd28FoaRxM2r_U8" version="21.7.5" type="device">
+  <diagram name="Trang-1" id="K3vS8f-flWUlAkivX0Ez">
+    <mxGraphModel dx="1687" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kRtKJwxCEREDIgg22QSK-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRtKJwxCEREDIgg22QSK-1" target="kRtKJwxCEREDIgg22QSK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRtKJwxCEREDIgg22QSK-7" value="Connect Service" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kRtKJwxCEREDIgg22QSK-3">
+          <mxGeometry x="-0.3636" y="2" relative="1" as="geometry">
+            <mxPoint x="48" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kRtKJwxCEREDIgg22QSK-1" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kRtKJwxCEREDIgg22QSK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.517;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kRtKJwxCEREDIgg22QSK-2" target="kRtKJwxCEREDIgg22QSK-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRtKJwxCEREDIgg22QSK-2" value="pfsense&lt;br&gt;Public IP: 54.52.128.23" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="360" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kRtKJwxCEREDIgg22QSK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRtKJwxCEREDIgg22QSK-5" target="kRtKJwxCEREDIgg22QSK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRtKJwxCEREDIgg22QSK-8" value="Domain Comapny" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kRtKJwxCEREDIgg22QSK-6">
+          <mxGeometry x="-0.2017" y="1" relative="1" as="geometry">
+            <mxPoint x="-4" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kRtKJwxCEREDIgg22QSK-5" value="Route53" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.route_53;fillColor=#F58536;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="307.25" width="70.5" height="85.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kRtKJwxCEREDIgg22QSK-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kRtKJwxCEREDIgg22QSK-9" target="kRtKJwxCEREDIgg22QSK-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRtKJwxCEREDIgg22QSK-9" value="Traefix Proxy" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.traffic_manager;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="500" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kRtKJwxCEREDIgg22QSK-11" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="460" y="640" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kRtKJwxCEREDIgg22QSK-12" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="280" y="720" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kRtKJwxCEREDIgg22QSK-13" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="370" y="720" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kRtKJwxCEREDIgg22QSK-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="620" width="325" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="kRtKJwxCEREDIgg22QSK-14" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="460" y="720" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kRtKJwxCEREDIgg22QSK-15" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="370" y="640" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kRtKJwxCEREDIgg22QSK-16" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="280" y="650" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kRtKJwxCEREDIgg22QSK-19" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="322.6" y="780" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kRtKJwxCEREDIgg22QSK-20" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="417.40000000000003" y="780" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
